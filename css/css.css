@@ -1,0 +1,193 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-size: 1920px 1080px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-image: url("../images/BACKGROUND.jpg");
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+	width: 200px;
+	height: 123px;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.container {
+	width: 1180px;
+	background-color: #FFF;
+	margin: 0 auto; 
+}
+
+#header {
+	background-color: #EADCAE;
+	overflow:auto;
+
+}
+
+#navbar div{
+
+}
+
+
+
+
+.sidebar1 {
+	float: left;
+	width: 200px;
+	background-color: #C6D580;
+	padding-bottom: 30px;
+	min-height: calc(100vh - 2.5rem);
+}
+.logo1 {
+	float: left;
+	max-width: 200px;
+}
+.content {
+
+	padding: 10px 0;
+	width: 960px;
+	float: left;
+	min-height: calc(100vh - 2.5rem);
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+	margin-bottom: 0 px;
+	width: 200px;
+}
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+ul.nav a, ul.nav a:visited { 
+	padding: 15px 5px 10px 15px;
+	display: block; 
+	width: 180px;
+	text-decoration: underline;
+	font-size: 110%;
+	font-style: italic;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+
+.footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: absolute;
+	clear: both;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+a {
+	width: 200px;
+}
+#sse1
+{
+	/*You can decorate the menu's container, such as adding background images through this block*/
+	background-color: #496225;
+	height: 38px;
+	padding: 15px;
+	border-radius: 3px;
+	box-sizing: content-box;
+
+}
+#sses1
+{
+	margin:0 auto; /*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul
+{
+	position: relative;
+	list-style-type: none;
+	float:left;
+	padding:0;margin:0;
+	border-bottom:solid 1px #6C0000;
+}
+#sses1 li
+{
+	float:left;
+	list-style-type: none;
+	padding:0;margin:0;background-image:none;
+}
+/*CSS for background bubble*/
+#sses1 li.highlight
+{
+	background-color:#800;
+	top:36px;
+	height:2px;
+	border-bottom:solid 1px #C00;
+	z-index: 1;
+	position: absolute;
+	overflow:hidden;
+}
+#sses1 li a
+{
+	box-sizing: content-box;
+	height:30px;
+	padding-top: 8px;
+	margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+	color: #fff;
+	font: normal 12px arial;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
